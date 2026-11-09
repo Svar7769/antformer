@@ -1,0 +1,39 @@
+# Separate repo
+simple_ant_sim/
+
+# Python caches
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data and generated outputs
+data/
+*.npy
+*.npz
+*.pkl
+*.h5
+*.csv
+*_dump.txt
+
+# Model checkpoints
+*.pt
+*.pth
+*.ckpt
+checkpoints/
+
+# Logs and experiment tracking
+*.log
+logs/
+runs/
+wandb/
+lightning_logs/
+outputs/
+
+# Editor and OS junk
+.vscode/
+.idea/
+.DS_Store
